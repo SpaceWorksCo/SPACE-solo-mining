@@ -4,7 +4,7 @@ window.onload = function () {
 
 function blocks(cback) {
     httpRequest("/blocks.json", function (err, json) {
-        array = JSON.parse(json); 
+        array = JSON.parse(json);
         /* Sample (multiline for visual only):
         [{"block":26535,"hash":"02245b6b58766b572773d36ddf19c1a59461937f61b543faf60c052022072690",
         "finder":"RE8ZCtMFxoaYo2N6AjPcmK2oq1GXtyjyZU.NewBeast","date":1545740761991},
@@ -74,7 +74,7 @@ function blocks(cback) {
                 cell1.appendChild(document.createTextNode(array[i].block))
                 cell2.appendChild(document.createTextNode(''))
 				var link = document.createElement('a');
-				link.href = "https://kmd.explorer.dexstats.info/block/"+array[i].hash;
+				link.href = "https://space.explorer.dexstats.info/block/"+array[i].hash;
 				link.setAttribute("target", "_blank");
 				link.innerText = array[i].hash;
 				cell2.appendChild(link);
