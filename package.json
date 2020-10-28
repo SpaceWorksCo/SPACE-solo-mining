@@ -1,5 +1,5 @@
 {
-  "name": "kmd-solomining",
+  "name": "space-solomining",
   "version": "0.1.0",
   "description": "High performance Stratum poolserver in Node.js",
   "keywords": [
@@ -9,13 +9,17 @@
     "server",
     "poolserver"
   ],
-  "homepage": "https://github.com/TheComputerGenie/KMD-solo-mining",
+  "homepage": "https://github.com/spaceworksco/SPACE-solo-mining",
   "bugs": {
-    "url": "https://github.com/TheComputerGenie/KMD-solo-mining/issues"
+    "url": "https://github.com/spaceworksco/SPACE-solo-mining/issues"
   },
   "license": "GPL-3.0",
-  "author": "ComputerGenie",
+  "author": "lightspeed393",
   "contributors": [
+    {
+      "name": "TheComputerGenie",
+      "url": "https://github.com/TheComputerGenie"
+    },
     {
       "name": "webworker01",
       "url": "https://github.com/webworker01"
@@ -34,7 +38,7 @@
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/TheComputerGenie/KMD-solo-mining.git"
+    "url": "https://github.com/spaceworksco/SPACE-solo-mining.git"
   },
   "dependencies": {
     "async": "^2.6.1",
