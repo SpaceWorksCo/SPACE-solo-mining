@@ -1,0 +1,6 @@
+{
+  "name": "Spacecoin",
+  "symbol": "SPACE",
+  "txfee": 0.0001,
+  "peerMagic": "947961ec"
+}

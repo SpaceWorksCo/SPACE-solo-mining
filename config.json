@@ -1,10 +1,10 @@
 {
-    "coin": "KMD.json",
-    "address": "RESWsMfWFvPGGUPGfGgXPgGKWeqVaAtUfy",
+    "coin": "SPACE.json",
+    "address": "RC7X8pGZ5GJH5hCHFb6skbsrfg5oEHjc2y",
     "daemons": [
         {
             "host": "127.0.0.1",
-            "port": 7771,
+            "port": 35593,
             "user": "MyUser",
             "password": "MyPass"
         }
@@ -12,7 +12,7 @@
     "p2p": {
         "enabled": true,
         "host": "127.0.0.1",
-        "port": 7770,
+        "port": 35592,
         "disableTransactions": false
     },
     "ports": {

@@ -1,4 +1,4 @@
-## Solomining proxy for Komodo. (READY FOR TESTING)
+## Solomining proxy for Spacecoin
 
 ## The solo miner's solo pool
 The objective is a "light-weight" pool that does what needs to be done.
@@ -8,7 +8,7 @@ The objective is a "light-weight" pool that does what needs to be done.
 Requirements
 ------------
 * node v11.5+ (installs by following "Install" below)
-* coin daemon 
+* coin daemon
 
 Install
 -------------
@@ -22,8 +22,8 @@ sudo apt-get install -y nodejs
 sudo npm install npm -g
 nvm install node
 nvm alias default node
-git clone https://github.com/TheComputerGenie/KMD-solo-mining
-cd KMD-solo-mining
+git clone https://github.com/spaceworksco/SPACE-solo-mining
+cd SPACE-solo-mining
 npm install && cd node_modules/express-dot-engine && npm install lodash@4.17.11 && cd ../..
 ```
 
@@ -38,7 +38,7 @@ npm start
 ```
 
 Update
-------------- 
+-------------
 ```bash
 git pull
 rm -rf node_modules
@@ -61,7 +61,7 @@ Notes and known issues:
 many hands in the jar and no "standard" of style. Over time, the base has become the spagetti that NOMP was written to
 avoid, and over time that will be changed.
 
-* (N KI) Web pages use online resources for css and some of the js. These min files are "standard", used on countless sites, 
+* (N KI) Web pages use online resources for css and some of the js. These min files are "standard", used on countless sites,
 can be checked at your discretion, and may or may not be localized at some future point.
 
 * (N) There is no TLS functionality, because I'm not sure I could ever be convinced of need for a solo setup.
@@ -71,4 +71,4 @@ License
 Released under the GNU General Public License 3
 http://www.gnu.org/licenses/gpl-3.0.html
 
-_Forked from [aayanl/equihash-solomining](https://github.com/aayanl/equihash-solomining) which is licensed under GNU GPL v2_
+_Forked from [TheComputerGenie/KMD-solo-mining](https://github.com/TheComputerGenie/KMD-solo-mining) which is licensed under GNU GPL v3_
